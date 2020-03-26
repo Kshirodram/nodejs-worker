@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-worker",
+  "version": "1.0.0",
+  "description": "worker thread example in nodejs",
+  "main": "worker.js",
+  "scripts": {
+    "start": "node worker.js",
+    "benchmark": "ab -c 3 -n 3 localhost:3000/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kshirodram/nodejs-worker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kshirodram/nodejs-worker/issues"
+  },
+  "homepage": "https://github.com/Kshirodram/nodejs-worker#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
