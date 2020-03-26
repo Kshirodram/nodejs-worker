@@ -6,4 +6,5 @@ Workers (threads) are useful for performing CPU-intensive JavaScript operations.
 Details: https://nodejs.org/api/worker_threads.html
 
 ## Architecture diagram
-![alt text](https://raw.githubusercontent.com/Kshirodram/nodejs-worker/master/architecture.png)
+
+<img src="https://raw.githubusercontent.com/Kshirodram/nodejs-worker/master/architecture.png" width="400" height="400">
